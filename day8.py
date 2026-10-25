@@ -67,3 +67,11 @@ print(count)
 #-----SLICING-----
 A='PRACHI'
 print(A[1:5])
+print(A[1:])
+print(A[:2])
+print(A[:])
+
+#---reverse a string----
+print(A[::-1])
+
+
