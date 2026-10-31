@@ -42,7 +42,7 @@ new=set(arr)
 print(new)
 
 
-nums = {10, 20, 30, 40} #check whether 30 and 50 exist in the set.
+nums = {10, 20, 30, 40} #check whether 30 and 50 exist in the set.git addday11
 print(30 in nums)
 print(50 in nums)
 
