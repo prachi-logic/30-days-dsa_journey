@@ -165,16 +165,3 @@ print("Unique Elements:", unique)
 # Frequency counting = O(n)
 # Comparing two frequency dictionaries = O(k)
 # where k is the number of distinct characters.
-
-# ==================================================
-# DAY 13 - LEETCODE PRACTICE
-# ==================================================
-
-# 1. Valid Anagram - 242
-# 2. First Unique Character in a String - 387
-# 3. Isomorphic Strings - 205
-# 4. Ransom Note - 383
-
-# ==================================================
-# END OF DAY 13
-# ==================================================
