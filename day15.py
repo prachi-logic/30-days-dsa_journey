@@ -109,25 +109,6 @@ print("Top 3 Marks:", marks[:3])
 # O(n log n) is generally efficient for sorting.
 
 
-# 9. PRACTICE QUESTIONS
-
-# # Q1. Sort the list in ascending order.
-arr = [10, 4, 7, 2, 15, 1]
-arr.sort()
-print(arr)
-
-# # Q2. Sort the list in descending order.
-arr = [23, 11, 45, 6, 18]
-arr.sortr(reverse=True)
-print(arr)
-
-# Q3. Find the smallest and largest number.
-# arr = [45, 12, 89, 34, 5, 67]
-
-# Q4. Sort student marks and print top 3 marks.
-# marks = [45, 89, 67, 92, 56, 78]
-
-
 # ==========================================
 # END OF DAY 15 - SORTING BASICS
 # ==========================================

@@ -167,15 +167,22 @@
 
 
 
-arr= [10, 20, 30, 40, 50]
-target=30
-left=0
-right=len(arr)-1
-mid=(left+right)//2
-while left<=right:
-    if mid<=target:
-        left=mid-1
-    else:
-        print("element not found")
-        
+nums = [10, 20, 30, 40, 50]
+target = 30
 
+left = 0
+right = len(nums) - 1
+
+while left <= right:
+
+    mid = (left + right) // 2
+
+    if nums[mid] == target:
+        print("Element found at index:", mid)
+        break
+
+    elif nums[mid] < target:
+        left = mid + 1
+
+    else:
+        right = mid - 1
